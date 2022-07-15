@@ -1,0 +1,342 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(0,4,40);
+    background: linear-gradient(90deg, rgba(0,4,40,1) 0%, rgba(0,78,146,1) 100%);
+    font-family:  'Titillium Web', sans-serif;
+}
+
+@font-face {
+    font-family: "personalizada";
+    src: url(font-face/personalizada.ttf.ttf), url(font-face/personalizada.eot), url(font-face/personalizada-otf.otf)
+}
+
+
+#logo-sokm {
+    padding: 0px 16px;
+    float: right;
+    width: 200px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+}
+
+/* Seccion texto de apertura */
+#apertura {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1px;
+    padding-left: 40%;
+}
+
+#detalle-1 {
+    padding-bottom: 40%
+}
+
+
+#texto-principal {
+    text-align: left;
+    padding-left: 60%;
+    padding-right: 90%;
+    padding-bottom: 10%;
+    font-size: 80px;
+    color: #6bb600;
+
+}
+
+/* Seccion BARRA DE NAVEGACION */
+.barra-navegacion {
+    background-color: none;
+    overflow: hidden;
+}
+
+.barra-navegacion a {
+    float: left;
+    color: #6bb600;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Seccion Perfil 1 */
+.cuerpo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 2%;
+
+}
+
+.sobre-nosotros-texto {
+    font-size: 20px;
+    color: #6bb600;
+    width: 400px;
+    padding: 10%;
+    padding-bottom: 40%;
+    margin-top: 15%;
+}
+
+#staff {
+    font-size: 25px;
+}
+
+#perfil1 {
+    width: 500px;
+    height: 600px;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-top: 50%;
+}
+
+#perfil1-info {
+    margin-left: 50px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+#header-texto1 {
+    font-size: 160px;
+    color: #dadfcf;
+    margin-left: 17%;
+    margin-bottom: -3%;
+    font-family: "Personalizada";
+}
+
+#h2-texto {
+    margin-left: 50px;
+    font-size: 30px;
+    padding-right: 50%;
+    color: #e4f7ca;
+
+}
+
+#articulo-perfil1 {
+    color: #6bb600;
+    margin-top: 20%;
+}
+
+#fig1 {
+    color: #e4f7ca;
+}
+
+/* Seccion Perfil 2 */
+#perfil2 {
+    width: 500px;
+    height: 600px;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-right: 50%;
+
+}
+
+#h2-texto2 {
+    margin-left: 55px;
+    margin-right: 0%;
+    margin-top: 20%;
+    font-size: 30px;
+    padding-left: 50%;
+    color: #e4f7ca;
+}
+
+#perfil2-info {
+    margin-right: 50px;
+    margin-left: 8%;
+    font-size: 20px;
+    padding-left: 50%;
+}
+
+
+.articulo-perfil2 {
+    margin-right: 50px;
+    color: #6bb600;
+}
+
+#fig2 {
+    color: #e4f7ca;
+}
+
+/* Seccion Servicios */
+
+#texto-servicios {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10%;
+    padding-right: 1%;
+    color: #e4f7ca;
+    font-size: 40px;
+}
+
+#iconos {
+    flex-direction: column;
+    display: flex;
+    margin-top: 3%;
+}
+
+#icono1 {
+    width: 60px;
+    height: 60px;
+    margin-top: -10%;
+    
+}
+#icono2 {
+    width: 60px;
+    height: 60px;
+}
+#icono3 {
+    width: 60px;
+    height: 60px;
+}
+#icono4 {
+    width: 60px;
+    height: 60px;
+    margin-top: 10%;
+    margin-bottom: -10%;
+}
+#icono5 {
+    width: 60px;
+    height: 60px;
+    margin-top: 20%;
+    margin-bottom: -20%;
+}
+#icono6 {
+    width: 60px;
+    height: 60px;
+    margin-top: 30%;
+}
+#lista-servicios {
+    font-size: 30px;
+    color: #6bb600;
+}
+#miscelanea {
+    margin-left: 13%;
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+
+
+/* Seccion Portfolio */
+.cuerpo2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 350px;
+    max-width: 1200px;
+
+}
+
+#h2-portfolio {
+    font-size: 40px;
+    color: #e4f7ca;
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-img {
+    width: 500px;
+    height: 650px;
+}
+
+#texto-portfolio {
+    font-size: 20px;
+    display: block;
+    justify-content: center;
+    color: #6bb600;
+    margin-right: 20%;
+    margin-left: 24%;
+    margin-bottom: 5%;
+
+}
+
+
+
+/* Seccion Contacto */
+.contacto-1 {
+    font-size: 30px;
+    color: #e4f7ca;
+    margin-left: 20%;
+}
+
+#redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+#instagram {
+    width: 100px;
+}
+#meta {
+    width: 100px;
+}
+
+#twitter {
+    width: 100px;
+}
+/* seccion footer */
+.footer-final {
+    color: #6bb600;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+#texto-final {
+    color: #6bb600;
+   display: flex;
+    justify-content: center;
+}
+
+/* seccion FORM */
+.campos {
+    background-color: #6bb600;
+    margin-top: 3%;
+    border-radius: 20px;
+}
+.botones {
+    color: #6bb600;
+}
+#formulario {
+display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+#formulario {
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    
+}
+#formulario-1 {
+    font-family:'Titillium Web', sans-serif;
+}
+input {
+padding: .5em;
+
+}
+textarea {
+    min-height: 8em;
+    min-width: 100%;
+    padding: .5em;
+}
+#boton-form {
+    background-color: #6bb600;
+    border: #6bb600;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    width: 300px;
+    height: 50px;
+}
